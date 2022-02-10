@@ -194,4 +194,4 @@ for (let i = 0; str[i]; i++) {
     }
 
 }
-console.log(counter);
+console.log(count);
