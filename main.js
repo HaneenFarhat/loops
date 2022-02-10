@@ -176,3 +176,22 @@
 
 
 
+
+
+
+
+
+
+const str = 'hyogvbybubp^*p^*p^*p^*p^*pp^*^*p^*pp^*bhb;ihbi^*p^*p^*p^*p^*pivp^*,'
+const special = '*^,'
+let count = 0
+for (let i = 0; str[i]; i++) {
+
+    for (let j = 0; special[j]; j++) {
+        if (str[i]== special[j]) {
+            count++
+        }
+    }
+
+}
+console.log(counter);
